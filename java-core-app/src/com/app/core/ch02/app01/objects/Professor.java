@@ -13,6 +13,7 @@ public class Professor extends Person {
 
     @Override
     public void speak(){
+        //super.speak();
         System.out.println("Professor. speak()");
     }
 }

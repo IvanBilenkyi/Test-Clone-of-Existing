@@ -60,5 +60,7 @@ public class Main02 {
         Professor myProfessor = new Professor();
         myProfessor.teach();
         myProfessor.teach("Mathematics");
+        System.out.println("-------Super. Calls----------");
+        professor.speak();
     }
 }
